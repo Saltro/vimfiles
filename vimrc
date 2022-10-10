@@ -2,16 +2,20 @@
 set number
 set relativenumber
 set cursorline
-set autoindent
-set tabstop=2
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 syntax on
 set showcmd
-set expandtab
+set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set expandtab
+set smartindent
+set autoindent
+filetype indent on
+set listchars=tab:<->,space:⋅
+set list
 set scrolloff=3
 set ruler
 set showmatch
@@ -57,4 +61,9 @@ nnoremap <leader>s :call gitblame#echo()<CR>
 
 " Open preview window at bottom of the current window
 let g:git_messenger_preview_mods = "bo"
+
+" Set wakatime cli path on windows
+if has("win32")
+  let g:wakatime_CLIPath = "~/.wakatime/wakatime-cli.exe"
+endif
 
