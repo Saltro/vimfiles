@@ -20,3 +20,6 @@
 [submodule "pack/packages/start/git-messenger.vim"]
 	path = pack/packages/start/git-messenger.vim
 	url = https://github.com/rhysd/git-messenger.vim.git
+[submodule "pack/packages/start/vim-commentary"]
+	path = pack/packages/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
