@@ -29,6 +29,7 @@ set wildignore+=node_modules/**,.git/**,dist/**,target/**,*.png,*.jpg,*.jpeg,*.s
 set laststatus=2
 set noshowmode
 set nowrap
+set re=0
 
 let mapleader=","
 
@@ -58,6 +59,17 @@ inoremap <expr> <tab> pumvisible() ? "\<C-y>" : "\<C-g>u\<tab>"
 
 " Use <leader>s to check git blame
 nnoremap <leader>s :call gitblame#echo()<CR>
+
+" Use K to show documentation in preview window
+nnoremap <silent> du :call ShowDocumentation()<CR>
+
+function! ShowDocumentation()
+  if CocAction('hasProvider', 'hover')
+    call CocActionAsync('doHover')
+  else
+    call feedkeys('du', 'in')
+  endif
+endfunction
 
 " Open preview window at bottom of the current window
 let g:git_messenger_preview_mods = "bo"
