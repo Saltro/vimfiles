@@ -47,6 +47,7 @@ inoremap <C-j> <Esc>
 nnoremap <space>e :CocCommand explorer<CR>
 
 " Use onedark colorscheme
+packadd! onedark.vim
 colo onedark
 let g:lightline = {
   \ 'colorscheme': 'onedark',
