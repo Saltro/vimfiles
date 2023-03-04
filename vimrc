@@ -7,13 +7,14 @@ set termencoding=utf-8
 set encoding=utf-8
 syntax on
 set showcmd
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 set smartindent
 set autoindent
 filetype indent on
+filetype plugin on
 set listchars=tab:<->,space:⋅
 set list
 set scrolloff=3
