@@ -44,9 +44,6 @@ noremap Q :q<CR>
 
 inoremap <C-j> <Esc>
 
-" Use <space>e to open explorer
-nnoremap <space>e :CocCommand explorer<CR>
-
 " Use onedark colorscheme
 packadd! onedark.vim
 colo onedark
@@ -73,6 +70,12 @@ function! ShowDocumentation()
   endif
 endfunction
 
+" Go to code navigation
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
 " Open preview window at bottom of the current window
 let g:git_messenger_preview_mods = "bo"
 
@@ -80,4 +83,10 @@ let g:git_messenger_preview_mods = "bo"
 if has("win32")
   let g:wakatime_CLIPath = "~/.wakatime/wakatime-cli.exe"
 endif
+
+let g:netrw_banner = 0
+let g:netrw_fastbrowse = 0
+" let g:netrw_keepdir = 0
+let g:netrw_localcopydircmd = 'cp -r'
+let g:netrw_winsize = 30
 
