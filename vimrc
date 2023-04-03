@@ -64,6 +64,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-rust-analyzer', '@yaegassy/coc-volar']
 " Open preview window at bottom of the current window
 let g:git_messenger_preview_mods = "bo"
 
