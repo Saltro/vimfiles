@@ -26,7 +26,7 @@ set ignorecase
 set smartcase
 set wildmenu
 set backspace=indent,eol,start
-set wildignore+=node_modules/**,.git/**,dist/**,target/**,*.png,*.jpg,*.jpeg,*.svg,*.gif,*.ttf,*.otf
+set wildignore+=*/node_modules/**,*/.git/**,*/dist/**,*/target/**,*.png,*.jpg,*.jpeg,*.svg,*.gif,*.ttf,*.otf
 set laststatus=2
 set noshowmode
 set nowrap
