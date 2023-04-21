@@ -23,3 +23,6 @@
 [submodule "pack/packages/opt/onedark.vim"]
 	path = pack/packages/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/packages/opt/vim-wordmotion"]
+	path = pack/packages/opt/vim-wordmotion
+	url = https://github.com/chaoren/vim-wordmotion.git

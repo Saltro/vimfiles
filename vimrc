@@ -31,6 +31,7 @@ set laststatus=2
 set noshowmode
 set nowrap
 set re=0
+set updatetime=300
 
 let mapleader=","
 noremap \ ,
@@ -101,3 +102,5 @@ let g:netrw_fastbrowse = 0
 let g:netrw_localcopydircmd = 'cp -r'
 let g:netrw_winsize = 30
 
+" Use wordmotion
+packadd! vim-wordmotion
