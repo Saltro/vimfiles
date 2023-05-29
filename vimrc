@@ -102,5 +102,5 @@ let g:netrw_fastbrowse = 0
 let g:netrw_localcopydircmd = 'cp -r'
 let g:netrw_winsize = 30
 
-" Use wordmotion
 packadd! vim-wordmotion
+packadd! vim-vue-plugin

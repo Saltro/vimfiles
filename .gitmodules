@@ -26,3 +26,9 @@
 [submodule "pack/packages/opt/vim-wordmotion"]
 	path = pack/packages/opt/vim-wordmotion
 	url = https://github.com/chaoren/vim-wordmotion.git
+[submodule "pack/packages/opt/vim-vue-plugin"]
+	path = pack/packages/opt/vim-vue-plugin
+	url = https://github.com/leafOfTree/vim-vue-plugin.git
+[submodule "pack/packages/start/indentLine"]
+	path = pack/packages/start/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
