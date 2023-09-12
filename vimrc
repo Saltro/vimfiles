@@ -104,3 +104,6 @@ let g:netrw_winsize = 30
 
 packadd! vim-wordmotion
 packadd! vim-vue-plugin
+
+" Show json quote
+let g:vim_json_conceal = 0
