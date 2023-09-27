@@ -39,8 +39,24 @@ noremap \ ,
 " Use onedark colorscheme
 packadd! onedark.vim
 colo onedark
+
+function CustomFugitiveHead()
+  let head = FugitiveHead()
+  if head != ""
+    let head = "\uf126 " .. head
+  endif
+  return head
+endfunction
+
 let g:lightline = {
   \ 'colorscheme': 'onedark',
+  \ 'active': {
+  \   'left': [ [ 'mode', 'paste' ],
+  \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+  \ },
+  \ 'component_function': {
+  \   'gitbranch': 'CustomFugitiveHead'
+  \ },
   \ }
 
 " Use <tab> to confirm completion, `<C-g>u` means break undo chain at current
