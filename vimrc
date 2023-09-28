@@ -103,7 +103,13 @@ nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 
 " Run the Code Lens action on the current line
 nmap <leader>cl  <Plug>(coc-codelens-action)
-let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-rust-analyzer', '@yaegassy/coc-volar']
+let g:coc_global_extensions = [
+  \ 'coc-tsserver',
+  \ 'coc-eslint',
+  \ 'coc-rust-analyzer',
+  \ '@yaegassy/coc-volar',
+  \ 'coc-spell-checker'
+  \ ]
 " Open preview window at bottom of the current window
 let g:git_messenger_preview_mods = "bo"
 
