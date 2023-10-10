@@ -32,6 +32,7 @@ set noshowmode
 set nowrap
 set re=0
 set updatetime=300
+set mouse=a
 
 let mapleader=","
 noremap \ ,
