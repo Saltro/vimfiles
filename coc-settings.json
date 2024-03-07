@@ -1,0 +1,12 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "typescript",
+        "javascript",
+        "typescriptreact",
+        "javascriptreact",
+        "vue",
+        "less",
+        "css",
+        "scss"
+    ]
+}

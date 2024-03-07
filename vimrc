@@ -109,7 +109,8 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-rust-analyzer',
   \ '@yaegassy/coc-volar',
-  \ 'coc-spell-checker'
+  \ 'coc-spell-checker',
+  \ 'coc-prettier'
   \ ]
 " Open preview window at bottom of the current window
 let g:git_messenger_preview_mods = "bo"
