@@ -127,8 +127,10 @@ let g:netrw_localcopydircmd = 'cp -r'
 let g:netrw_winsize = 30
 let g:netrw_liststyle = 3
 
-packadd! vim-wordmotion
 packadd! vim-vue-plugin
 
 " Show json quote
 let g:vim_json_conceal = 0
+
+" Camel Case Motion
+let g:camelcasemotion_key = '<leader>'

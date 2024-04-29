@@ -8,5 +8,11 @@
         "less",
         "css",
         "scss"
+    ],
+    "cSpell.userWords": [
+      "Nuxt",
+      "aweme",
+      "vite",
+      "zustand"
     ]
 }

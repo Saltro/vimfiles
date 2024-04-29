@@ -23,9 +23,6 @@
 [submodule "pack/packages/opt/onedark.vim"]
 	path = pack/packages/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim.git
-[submodule "pack/packages/opt/vim-wordmotion"]
-	path = pack/packages/opt/vim-wordmotion
-	url = https://github.com/chaoren/vim-wordmotion.git
 [submodule "pack/packages/opt/vim-vue-plugin"]
 	path = pack/packages/opt/vim-vue-plugin
 	url = https://github.com/leafOfTree/vim-vue-plugin.git
@@ -41,3 +38,6 @@
 [submodule "pack/packages/start/vim-surround"]
 	path = pack/packages/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/packages/start/CamelCaseMotion"]
+	path = pack/packages/start/CamelCaseMotion
+	url = https://github.com/bkad/CamelCaseMotion.git
