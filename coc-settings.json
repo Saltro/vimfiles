@@ -14,5 +14,7 @@
       "aweme",
       "vite",
       "zustand"
-    ]
+    ],
+    "eslint.autoFixOnSave": true,
+    "eslint.experimental.useFlatConfig": true
 }

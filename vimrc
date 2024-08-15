@@ -120,14 +120,13 @@ if has("win32")
   let g:wakatime_CLIPath = "~/.wakatime/wakatime-cli.exe"
 endif
 
-let g:netrw_banner = 0
+" let g:netrw_banner = 0
 let g:netrw_fastbrowse = 0
-" let g:netrw_keepdir = 0
 let g:netrw_localcopydircmd = 'cp -r'
 let g:netrw_winsize = 30
 let g:netrw_liststyle = 3
-
-packadd! vim-vue-plugin
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
+let g:netrw_localrmdir = 'rm -rf'
 
 " Show json quote
 let g:vim_json_conceal = 0
